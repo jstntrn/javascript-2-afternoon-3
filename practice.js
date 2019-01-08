@@ -95,7 +95,7 @@ multiply(4, 3, function(answer){
 
 //Code Here
 function contains(arr, name, cb){
-  if(arr.includes(name) == true){
+  if(arr.includes(name) === true){
     cb(true);
   }
   cb(false);
@@ -172,7 +172,7 @@ each(names, function(item, indice){
 // Code here
 function getUserById(arr, id, cb){
   for(let i=0; i<arr.length; i++){
-    if(arr[i]['id'] == id){
+    if(arr[i]['id'] === id){
       cb(arr[i])
     }
   }
