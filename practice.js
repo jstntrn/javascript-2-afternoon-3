@@ -123,8 +123,8 @@ contains(names, 'Colt', function(result){
 //Code Here
 function uniq(arr, cb){
   let arrLog = [];
-  for(i=0; i<arr.length; i++){
-    if(arrLog.includes(arr[i]) != true){
+  for(let i=0; i<arr.length; i++){
+    if(arrLog.includes(arr[i]) !== true){
       arrLog.push(arr[i]);  
     }
   }
